@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.pregunta {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.opciones {
+    margin: 20px 0;
+}
+
+.rta {
+    font-size: 1.2em;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none; /* Quitar subrayado en el enlace */
+    color: black; /* Color del texto por defecto */
+}
+
+.rta:hover {
+    background-color: #007BFF; /* Color de fondo al pasar el cursor */
+    color: white; /* Color del texto al pasar el cursor */
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: transparent; /* Fondo transparente por defecto */
+    color: black; /* Color del texto por defecto para el enlace */
+    text-decoration: none; /* Quitar subrayado en el enlace */
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #007BFF; /* Color de fondo al pasar el cursor sobre el enlace */
+    color: white; /* Color del texto al pasar el cursor sobre el enlace */
+}
+.respuesta {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fondo claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura completa de la ventana */
+    margin: 0;
+}
+
+.contenido {
+    text-align: center; /* Centrar el texto e imagen */
+    background-color: #fff; /* Fondo blanco para el contenido */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    padding: 20px; /* Padding aumentado */
+    width: 90%; /* Ancho del contenedor aumentado */
+    max-width: 600px; /* Ancho máximo del contenedor aumentado */
+}
+
+.img-1 {
+    max-width: 90%; /* Asegura que la imagen no sobrepase el contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+    margin-bottom: 20px; /* Espacio debajo de la imagen aumentado */
+}
+
+audio {
+    margin-top: 10px; /* Espacio encima del audio */
+    width: 100%; /* Ancho completo del contenedor */
+    border-radius: 5px; /* Bordes redondeados para el audio */
+}
